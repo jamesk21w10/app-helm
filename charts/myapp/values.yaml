@@ -21,7 +21,7 @@ redis:
   storage: 1Gi
 
 app:
-  image: jamesk21w10/app:v12
+  image: jamesk21w10/app:v13
   replicas: 3
   secret:
     mysqlUser: "frodo"
